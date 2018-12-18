@@ -17,7 +17,7 @@ public class MainActivity extends Activity
 				ab = getActionBar();
 				ab.setDisplayShowHomeEnabled(true);
 				ab.setTitle("T3R Mobile");
-				Button signupBtn = findViewById(R.id.signup);
+			
 				
 				
 				
