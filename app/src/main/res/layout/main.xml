@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="match_parent"
 	android:layout_width="match_parent"
-	android:background="#FFBB00">
+	android:background="#FFBB00"
+	android:layout_gravity="center"
+	android:gravity="center">
 
 	<LinearLayout
 		android:layout_width="wrap_content"
@@ -25,16 +27,17 @@
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:text="T3R Mobile"
 			android:textStyle="bold"
-			android:textSize="50sp"/>
+			android:textSize="50sp"
+			android:paddingBottom="20dp"/>
 
 		<EditText
 			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
+			android:layout_width="match_parent"
 			android:ems="10"
 			android:textColorHint="#454545"
 			android:hint="Username"
 			android:textColor="#000"
-			android:inputType="none"
+			android:inputType="text"
 			android:lines="1"
 			android:colorAccent="#fff"
 			android:textAlignment="gravity"
@@ -43,7 +46,7 @@
 
 		<EditText
 			android:layout_height="wrap_content"
-			android:layout_width="wrap_content"
+			android:layout_width="match_parent"
 			android:textColorHint="#454545"
 			android:hint="Password"
 			android:inputType="textPassword"
@@ -94,5 +97,5 @@
 
 	</LinearLayout>
 
-</FrameLayout>
+</LinearLayout>
 
