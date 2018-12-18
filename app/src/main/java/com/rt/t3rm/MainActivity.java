@@ -8,13 +8,15 @@ import android.widget.*;
 
 public class MainActivity extends Activity 
 {
+		ActionBar ab;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-				
-				
+				ab = getActionBar();
+				ab.setDisplayShowHomeEnabled(true);
+				ab.setTitle("T3R Mobile");
 				Button signupBtn = findViewById(R.id.signup);
 				
 				
