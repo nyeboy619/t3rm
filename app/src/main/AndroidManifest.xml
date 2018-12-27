@@ -19,6 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+				<activity
+						android:name=".Register"
+						android:label="Register"
+						android:theme="@android:style/Theme.Holo.Light"
+						/>
+				<activity
+						android:name=".SignedIn"
+						android:label="SignedIn"
+						android:theme="@android:style/Theme.Holo.Light"
+				/>
     </application>
 
 </manifest>
